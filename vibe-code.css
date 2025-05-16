@@ -22,6 +22,137 @@
 }
 
 .monaco-grid-view .part.sidebar.pane-composite-part {
-	border-radius: 8px !important;
+	border-radius: 10px 14px 10px 10px !important;
 	border: 1px solid transparent !important;
+	margin: 0px 0px 0px 6px;
+	background-color: #171b26 !important;
+	padding: 0 6px;
+	height: 99%;
+	overflow: auto;
+}
+
+.monaco-grid-view .part.sidebar.pane-composite-part::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.monaco-grid-view .part.sidebar.pane-composite-part::-webkit-scrollbar {
+	width: 8px;
+	background-color: transparent;
+}
+
+.monaco-grid-view .part.sidebar.pane-composite-part::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #3e4047;
+}
+
+.monaco-workbench .part.statusbar {
+	background-color: #353b4b !important;
+}
+
+.monaco-split-view2.vertical
+	> .monaco-scrollable-element
+	> .split-view-container
+	> .split-view-view.visible:nth-child(3)
+	> .monaco-grid-branch-node
+	> .monaco-split-view2.horizontal
+	> .monaco-scrollable-element
+	> .split-view-container
+	> .split-view-view.visible:nth-child(3),
+.monaco-split-view2.vertical
+	> .monaco-scrollable-element
+	> .split-view-container
+	> .split-view-view.visible:nth-child(3)
+	> .monaco-grid-branch-node
+	> .monaco-split-view2.horizontal
+	> .monaco-scrollable-element
+	> .split-view-container
+	> .split-view-view.visible:nth-child(4) {
+	height: 99% !important;
+}
+
+.monaco-split-view2.vertical
+	> .monaco-scrollable-element
+	> .split-view-container
+	> .split-view-view.visible:nth-child(3) {
+	background-color: #252a38 !important;
+}
+
+.monaco-workbench
+	.part.editor
+	> .content
+	.editor-group-container
+	> .title
+	> .tabs-and-actions-container
+	> .monaco-scrollable-element {
+	padding: 8px 20px !important;
+}
+
+.monaco-workbench
+	.part.editor
+	> .content
+	.editor-group-container.active
+	> .title
+	.tabs-container
+	> .tab.active {
+	border-radius: 8px !important;
+}
+
+.tab.tab-actions-right.sizing-fit.has-icon {
+	border: 0 !important;
+}
+
+.part.sidebar.left.pane-composite-part > .content {
+	width: 100% !important;
+}
+
+.monaco-list.list_id_1 .monaco-list-row.focused.selected,
+.monaco-list.list_id_1:not(.drop-target):not(.dragging)
+	.monaco-list-row:hover:not(.selected):not(.focused) {
+	border-radius: 4px !important;
+}
+
+.split-view-view.visible > .part.editor > .content {
+	border-radius: 18px 11px 24px 35px !important;
+	overflow: hidden !important;
+}
+
+.split-view-container
+	> .split-view-view.visible
+	> .pane-composite-part.basepanel {
+	border-radius: 20px 11px 0px 0px !important;
+	overflow: hidden !important;
+}
+
+.monaco-inputbox,
+.full-input-box {
+	background-color: transparent !important;
+	border: 1px solid #2e3547 !important;
+	border-radius: 8px !important;
+}
+
+.monaco-workbench
+	.part.statusbar
+	> .items-container
+	> .statusbar-item.remote-kind {
+	background-color: #353b4b !important;
+}
+
+.split-view-container
+	> .split-view-view.visible
+	> .pane-composite-part.basepanel {
+	border-radius: 20px 11px 11px 17px !important;
+	overflow: hidden !important;
+	height: 100%;
+	margin-right: 7px;
+}
+
+.monaco-workbench
+	.part.statusbar
+	> .items-container
+	> .statusbar-item
+	> .statusbar-item-label {
+	color: #899992 !important;
 }
