@@ -1,0 +1,17 @@
+.tabs-and-actions-container {
+	background-color: #171b26 !important;
+}
+
+.monaco-workbench
+	.activitybar
+	> .content
+	:not(.monaco-menu)
+	> .monaco-action-bar.vertical
+	.action-label.codicon {
+	font-size: 15px !important;
+	font-weight: 600 !important;
+}
+
+.quick-input-widget {
+	top: 40% !important;
+}
