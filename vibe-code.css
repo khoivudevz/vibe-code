@@ -13,5 +13,15 @@
 }
 
 .quick-input-widget {
-	top: 40% !important;
+	top: 30% !important;
+}
+
+.monaco-sash.vertical {
+	background-color: #252a38 !important;
+	width: 8px;
+}
+
+.monaco-grid-view .part.sidebar.pane-composite-part {
+	border-radius: 8px !important;
+	border: 1px solid transparent !important;
 }
