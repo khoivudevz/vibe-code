@@ -1,8 +1,12 @@
-| ✨ Vibe Code ✨ |
+# ✨ Vibe Code UI ✨
 
 A beautiful, modern, and highly customized Visual Studio Code UI experience.
 
 Transform your VSCode into a stunning, productive environment with custom UI styles, fonts, and settings.
+
+![Vibe Code UI Preview](screenshots/vscode-vibe-preview.png)
+
+![Vibe Code UI Preview](screenshots/vscode-vibe-preview-2.png)
 
 ---
 
@@ -29,13 +33,7 @@ Transform your VSCode into a stunning, productive environment with custom UI sty
    - **Linux:** Use your system's font manager
 
 4. **(Optional) Customize Further**
-   - Edit `settings.json` as your styles.
-
----
-
-## 🖼️ Screenshots
-
-![Vibe Code UI Preview](screenshots/vscode-vibe-preview.png)
+   - Want more customization? Edit settings.json to suit your vibe.
 
 ---
 
