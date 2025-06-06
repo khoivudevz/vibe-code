@@ -2,7 +2,7 @@
 
 A beautiful, modern, and highly customized Visual Studio Code UI experience.
 
-Transform your VSCode into a stunning, productive environment with custom UI styles, fonts, and settings.
+Transform your VSCode, Cursor... into a stunning, productive environment with custom UI styles, fonts, and settings.
 
 ![Vibe Code UI Preview](screenshots/vscode-vibe-preview.png)
 
