@@ -4,9 +4,9 @@ A beautiful, modern, and highly customized Visual Studio Code UI experience.
 
 Transform your VSCode, Cursor... into a stunning, productive environment with custom UI styles, fonts, and settings.
 
-![Vibe Code UI Preview](screenshots/vscode-vibe-preview.png)
+![Vibe Code UI Preview](screenshots/vibe-code-preview-1.png)
 
-![Vibe Code UI Preview](screenshots/vscode-vibe-preview-2.png)
+![Vibe Code UI Preview](screenshots/vibe-code-preview-2.png)
 
 ---
 
@@ -47,7 +47,10 @@ Transform your VSCode, Cursor... into a stunning, productive environment with cu
  - **Mac:** Double-click font → "Install Font"
  - **Linux:** Use your system's font manager
 
-4. **(Optional) Customize Further**
+4. **(Optional) Custom background**
+   - [background](https://github.com/shalldie/vscode-background)
+
+5. **(Optional) Customize Further**
  - Want more customization? Edit settings.json to suit your vibe.
 
 ---

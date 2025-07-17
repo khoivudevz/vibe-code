@@ -61,6 +61,29 @@ body {
 	backdrop-filter: blur(10px);
 	border: 1px solid #ffffff12;
 	background-color: #343b4d !important;
+	background: radial-gradient(
+				circle at 100% 100%,
+				#232936 0,
+				#232936 7px,
+				transparent 7px
+			)
+			0% 0%/8px 8px no-repeat,
+		radial-gradient(circle at 0 100%, #232936 0, #232936 7px, transparent 7px)
+			100% 0%/8px 8px no-repeat,
+		radial-gradient(circle at 100% 0, #232936 0, #232936 7px, transparent 7px)
+			0% 100%/8px 8px no-repeat,
+		radial-gradient(circle at 0 0, #232936 0, #232936 7px, transparent 7px) 100%
+			100%/8px 8px no-repeat,
+		linear-gradient(#232936, #232936) 50% 50% / calc(100% - 2px)
+			calc(100% - 16px) no-repeat,
+		linear-gradient(#232936, #232936) 50% 50% / calc(100% - 16px)
+			calc(100% - 2px) no-repeat,
+		radial-gradient(at 100% 100%, #f48200 0%, transparent 70%),
+		radial-gradient(at 100% 0%, #7e00ff 0%, rgba(0, 0, 0, 0) 70%),
+		radial-gradient(at 0% 0%, #ec00ff 0%, rgba(0, 0, 0, 0) 70%), #ff0000 !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+	box-sizing: content-box !important;
 }
 .quick-input-widget .monaco-inputbox {
 	height: 32px !important;
@@ -361,4 +384,44 @@ li.action-item.icon {
 #workbench\.parts\.sidebar
 	> div.composite.has-composite-bar.header-or-footer.footer {
 	transform: translateY(30px);
+}
+
+.full-input-box {
+	background: radial-gradient(
+				circle at 100% 100%,
+				#232936 0,
+				#232936 7px,
+				transparent 7px
+			)
+			0% 0%/8px 8px no-repeat,
+		radial-gradient(circle at 0 100%, #232936 0, #232936 7px, transparent 7px)
+			100% 0%/8px 8px no-repeat,
+		radial-gradient(circle at 100% 0, #232936 0, #232936 7px, transparent 7px)
+			0% 100%/8px 8px no-repeat,
+		radial-gradient(circle at 0 0, #232936 0, #232936 7px, transparent 7px) 100%
+			100%/8px 8px no-repeat,
+		linear-gradient(#232936, #232936) 50% 50% / calc(100% - 2px)
+			calc(100% - 16px) no-repeat,
+		linear-gradient(#232936, #232936) 50% 50% / calc(100% - 16px)
+			calc(100% - 2px) no-repeat,
+		radial-gradient(at 100% 100%, #f48200 0%, transparent 70%),
+		radial-gradient(at 100% 0%, #7e00ff 0%, rgba(0, 0, 0, 0) 70%),
+		radial-gradient(at 0% 0%, #ec00ff 0%, rgba(0, 0, 0, 0) 70%), #ff0000 !important;
+	border-radius: 8px !important;
+	padding: 10px !important;
+	box-sizing: content-box !important;
+}
+
+.monaco-workbench
+	.part.editor
+	> .content
+	.editor-group-container.active
+	> .title
+	.tabs-container
+	> .tab.active {
+	--tab-border-top-color: transparent !important;
+	background-image: url('https://i.ibb.co/HfXvdBmC/ocean-wave.gif') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
 }
