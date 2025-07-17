@@ -47,7 +47,10 @@ Transform your VSCode, Cursor... into a stunning, productive environment with cu
  - **Mac:** Double-click font → "Install Font"
  - **Linux:** Use your system's font manager
 
-4. **(Optional) Customize Further**
+4. **(Optional) Custom background**
+   - [background](https://github.com/shalldie/vscode-background)
+
+5. **(Optional) Customize Further**
  - Want more customization? Edit settings.json to suit your vibe.
 
 ---

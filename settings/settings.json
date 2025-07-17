@@ -1739,6 +1739,8 @@
   "tailwind-fold.autoFold": false,
   "git.autofetch": true,
   "window.title": "${folderName}",
+
+  // Custom background
   "background.enabled": true,
   "background.editor": {
     "useFront": true,
