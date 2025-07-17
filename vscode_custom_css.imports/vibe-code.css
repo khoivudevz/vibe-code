@@ -420,4 +420,6 @@ li.action-item.icon {
   .tabs-container
   > .tab.active {
   --tab-border-top-color: transparent !important;
+  background-image: url("https://i.pinimg.com/1200x/c7/d2/7d/c7d27deebacc44e8324a01ee6ec253e1.jpg") !important;
+  background-size: contain !important;
 }
