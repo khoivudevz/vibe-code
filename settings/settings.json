@@ -1733,9 +1733,23 @@
   "powermode.shake.enabled": false,
   "workbench.colorTheme": "Default Dark Modern",
   "vscode_custom_css.imports": [
-    "file:///C:/vscode-custom/itsjinhk.css",
-    "file:///C:/vscode-custom/itsjinhk.js"
+    "file:///C:/vscode-custom/vibe-code.css", // path to the css file
+    "file:///C:/vscode-custom/vibe-code.js" // path to the js file
   ],
   "tailwind-fold.autoFold": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "window.title": "${folderName}",
+  "background.enabled": true,
+  "background.editor": {
+    "useFront": true,
+    "style": {
+      "background-position": "99% 99%",
+      "background-size": "15%",
+      "opacity": 0.6
+    },
+    "styles": [{}, {}, {}],
+    "images": ["https://i.ibb.co/jkcL8Kmm/nyan-cat-rotate.gif"],
+    "interval": 0,
+    "random": false
+  }
 }
