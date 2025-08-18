@@ -357,6 +357,7 @@ li.action-item.icon {
 	height: calc(100% - 10px);
 	display: flex;
 	flex-direction: column;
+	width: 99% !important;
 }
 
 #workbench\.parts\.sidebar
@@ -410,6 +411,7 @@ li.action-item.icon {
 	border-radius: 8px !important;
 	padding: 10px !important;
 	box-sizing: content-box !important;
+	width: 97% !important;
 }
 
 .monaco-workbench
@@ -424,4 +426,8 @@ li.action-item.icon {
 	background-size: cover !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
+}
+
+.explorer-folders-view {
+	padding: 0 8px !important;
 }
