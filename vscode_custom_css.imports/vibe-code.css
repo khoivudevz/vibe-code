@@ -431,3 +431,7 @@ li.action-item.icon {
 .explorer-folders-view {
 	padding: 0 8px !important;
 }
+
+.terminal-group > .monaco-split-view2.horizontal .split-view-view.visible {
+	background: #171b26 !important;
+}
